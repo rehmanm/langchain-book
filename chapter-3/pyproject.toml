@@ -1,0 +1,19 @@
+[project]
+name = "chapter-3"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Muhammad Abdul Rehman",email = "muhammad.abdulrehman@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+]
+
+[tool.poetry]
+packages = [{include = "chapter_3", from = "src"}]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
